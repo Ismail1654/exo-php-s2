@@ -7,6 +7,6 @@ function doubleLoop($n) {
         }
         echo "<br>";
     }}
-doubleLoop($_POST['n'] ?? 5);
+doubleLoop($n ?? 5);
 
 ?>
