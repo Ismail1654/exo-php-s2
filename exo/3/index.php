@@ -11,6 +11,6 @@ $contact = ["Alice Dupont", "John Doe", "Jean Martin"];
         }}
     fclose($fichier);
 
-print_r($contact);
+print_r($contact); 
  
 ?>
