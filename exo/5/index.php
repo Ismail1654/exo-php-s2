@@ -38,8 +38,6 @@ $data = $sth->fetchAll( mode: PDO::FETCH_ASSOC );
     <?php } ?>
 </table>
 <?php
-
-
-
-
 ?>
+
+>
