@@ -14,8 +14,12 @@ $sth = $mysqlClient->prepare( query: 'SELECT * FROM jo .`100`;' );
 $sth->execute();
 
 $data = $sth->fetchAll( mode: PDO::FETCH_ASSOC );
+
+
+
 ?>
 <table>
+
     <thead>
         <tr>
             <th>Nom</th>

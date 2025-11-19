@@ -17,7 +17,5 @@ $data  = $sth -> fetchAll ( PDO::FETCH_ASSOC);
 foreach ($data as $value ){
     echo $value ["nom"] . ":"  . $value["temps"] . " s<br/>"; }
 
-
-
-
+    
 ?>
