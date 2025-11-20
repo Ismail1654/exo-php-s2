@@ -25,7 +25,7 @@ try {
         }
     }
  
-    $numeroPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+    $numeroPage = isset($_GET['page']) ? intval($_GET['page']) : 1;    
     $nombreResultatsParPage = 10;
     $debutPagination = ($numeroPage - 1) * $nombreResultatsParPage;
  
